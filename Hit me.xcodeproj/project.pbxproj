@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCA932B02696874700EEA901 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA932AF2696874700EEA901 /* AboutViewController.swift */; };
 		CCDE22BE2695395800A57E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE22BD2695395800A57E0A /* AppDelegate.swift */; };
 		CCDE22C02695395800A57E0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE22BF2695395800A57E0A /* SceneDelegate.swift */; };
 		CCDE22C22695395800A57E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE22C12695395800A57E0A /* ViewController.swift */; };
 		CCDE22C52695395800A57E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDE22C32695395800A57E0A /* Main.storyboard */; };
 		CCDE22C72695395A00A57E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDE22C62695395A00A57E0A /* Assets.xcassets */; };
 		CCDE22CA2695395A00A57E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDE22C82695395A00A57E0A /* LaunchScreen.storyboard */; };
+		CCE5D1AA26968DD00018AE1E /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = CCE5D1A926968DD00018AE1E /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCA932AF2696874700EEA901 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		CCDE22BA2695395800A57E0A /* Hit me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hit me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDE22BD2695395800A57E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDE22BF2695395800A57E0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		CCDE22C62695395A00A57E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCDE22C92695395A00A57E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCDE22CB2695395A00A57E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE5D1A926968DD00018AE1E /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		CCDE22BC2695395800A57E0A /* Hit me */ = {
 			isa = PBXGroup;
 			children = (
+				CCE5D1A926968DD00018AE1E /* BullsEye.html */,
 				CCDE22BD2695395800A57E0A /* AppDelegate.swift */,
 				CCDE22BF2695395800A57E0A /* SceneDelegate.swift */,
 				CCDE22C12695395800A57E0A /* ViewController.swift */,
+				CCA932AF2696874700EEA901 /* AboutViewController.swift */,
 				CCDE22C32695395800A57E0A /* Main.storyboard */,
 				CCDE22C62695395A00A57E0A /* Assets.xcassets */,
 				CCDE22C82695395A00A57E0A /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCDE22CA2695395A00A57E0A /* LaunchScreen.storyboard in Resources */,
+				CCE5D1AA26968DD00018AE1E /* BullsEye.html in Resources */,
 				CCDE22C72695395A00A57E0A /* Assets.xcassets in Resources */,
 				CCDE22C52695395800A57E0A /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				CCDE22C22695395800A57E0A /* ViewController.swift in Sources */,
 				CCDE22BE2695395800A57E0A /* AppDelegate.swift in Sources */,
+				CCA932B02696874700EEA901 /* AboutViewController.swift in Sources */,
 				CCDE22C02695395800A57E0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV4T2LN4GH;
 				INFOPLIST_FILE = "Hit me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV4T2LN4GH;
 				INFOPLIST_FILE = "Hit me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
